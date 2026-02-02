@@ -1,0 +1,28 @@
+const config = {
+  senderName: "Yugen",
+  receiverName: "Tharishanee",
+
+  question: "Will you be my valentine?",
+
+  buttons: {
+    yes: {
+      text: "Yes",
+      nextMessage: "Wow, I am blown away and this is going to be the best year ever ❤️"
+    },
+    no: {
+      text: "No",
+      avoid: true
+    }
+  },
+
+  floatingHearts: true,
+  backgroundMusic: true,
+
+  // Background music (YouTube link)
+  musicUrl: "https://www.youtube.com/watch?v=32OaV8CGZc0",
+
+  theme: {
+    primaryColor: "#ff4d6d",
+    backgroundColor: "#fff0f5"
+  }
+};
